@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Site</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- Cabecalho -->
+        <nav class="navbar navbar-inverse">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#responsive-navbar" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="/">My Site</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="responsive-navbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="/">Home <span class="sr-only">(current)</span></a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+          </div>
+        </nav>
+    
+    <!-- Main -->
+    <div class="imagem-banner">
+        <div class="container">
+            <div class="row">
+                <h1>Lorem ipsum</h1>
+            </div>
+        </div>
+    </div>
+    <hr class="horizontal-bar">
+
+    <div class="conteudo">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Lorem ipsum dolor</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, eum autem dignissimos dolores perferendis laudantium. Natus enim, eveniet, id quis, distinctio, magni praesentium nisi consequuntur labore voluptate quam corporis fugit.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="slider">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="carousel-slider" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-slider" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-slider" data-slide-to="1"></li>
+                            <li data-target="#carousel-slider" data-slide-to="2"></li>
+                        </ol>
+                        
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                              <!-- <img class="img-fluid" src="./img/it-work.jpg" alt="img 1"> -->
+                                <h3>Lorem ipsum dolor 1</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                              
+                            </div>
+                            <div class="item">
+                                <h3>Lorem ipsum dolor 2</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            </div>
+                            <div class="item">
+                                <h3>Lorem ipsum dolor 3</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            </div>
+                        
+                        </div>
+
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#carousel-slider" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-slider" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </div>
+
+    <!-- Rodape -->
+    <footer class="rodape">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <span>Copyright &copy; 2016</span>                    
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

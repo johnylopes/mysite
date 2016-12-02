@@ -1,0 +1,20 @@
+{
+  "name": "my-site",
+  "version": "0.0.1",
+  "authors": [
+    "Johny Lopes <johny@denke.com.br>"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "~4.7.0",
+    "bootstrap-sass": "~3.3.7"
+  }
+}
